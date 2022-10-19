@@ -17,22 +17,45 @@ body {
     text-decoration: none;
 }
 
-.top-menu a {
+.gallery {
+width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.gallery-item {
+    width: 370px;
+    float: left;
+    margin: 10px;
+    
+}
+
+.gallery-item-title {
+    font-style: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    color: #212121;
+    padding: 10px;
+}
+
+.gallery-item-description {
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+    padding: 10px;
+}
+
+.top-menu-link {
     color:#212121;
     text-decoration:none;
 }
 
-.top-menu a:hover , a:active {
+.top-menu-link:hover , .top-menu-link:active {
     color: #2196f3;
-}
-
-.main-menu button {
-    cursor: pointer;
-    text-decoration: none;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 4px;
 }
 
 .top-menu {
@@ -41,7 +64,7 @@ body {
     padding: 0;
 }
 
-.top-menu li {
+.top-menu-item {
     font-weight: 500;
     display: inline;
     white-space: nowrap;
@@ -80,12 +103,17 @@ body {
     text-align: center;
 }
 
-.main-menu li{
+.in-line{
     display: inline;
     white-space: nowrap;
 }
 
-.main-menu button {
+.main-menu-item {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
     background-color: #f5f4fa;
     color: #212121;
     font-size: 16px;
@@ -93,12 +121,12 @@ body {
     line-height: 1.62;
 }
 
-.main-menu button:hover, button:active {
+.main-menu-item:hover, .main-menu-item:active {
     background-color: #2196f3;
     color: #ffffff;
 }
 
-.dark-webstudio ul {
+.position-footer {
     font-style: normal;
     list-style-type: none;
     padding: 0;
@@ -115,26 +143,19 @@ footer.dark-webstudio {
 .address {
     color: #ffffff;
     line-height: 1.71;
+    text-decoration: none;
+}
+
+.address:hover, .address:active {
+    color: #2196f3;
 }
 
 .contact {
     color: #999999;
     line-height: 1.71;
+    text-decoration: none;
 }
 
-.grid { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    align-items: stretch;
-    justify-items: center;
-    margin: 50px 150px 50px 150px
-}
-
-.grid img {
-    border: 1px solid #f5f4fa;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
+.contact:hover, .contact:active {
+    color:  #2196f3;
 }
